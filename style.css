@@ -119,12 +119,12 @@ ul a:hover {
     margin-top: 30px;
     padding-top: 5px;
     padding-bottom: 10px;
-    box-shadow: 5px 5px 5px rgba(128, 0, 128, 0.701);
+    
 
     padding-left: 35px;
     padding-right: 15px;
 
-    background-color: rgba(237, 176, 223, 0.949);
+    
   }
   .main {
     width: 100vw;
