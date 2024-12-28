@@ -114,13 +114,14 @@ ul a:hover {
 
   .namee {
     font-size: 30px;
+    
   }
   .text {
     margin-top: 30px;
     padding-top: 5px;
     padding-bottom: 10px;
     
-
+color:white;
     padding-left: 35px;
     padding-right: 15px;
 
@@ -156,9 +157,9 @@ ul a:hover {
     margin-right: 70px;
   }
   .section-in {
-    background-color: white;
+    background-color:none;
     box-shadow: none;
-    box-shadow: 5px 5px 15px black;
+    
     border-radius: 0%;
     width: 100vw;
     height: 80%;
