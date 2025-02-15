@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body{margin:0;
+     padding:0;}
+
+.s1 {
+  background-color: #00072d;
+}
+nav {
+  text-align: right;
+  padding: 20px;
+}
+nav a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: green;
+}
+p {
+  padding-top: 10px;
+}
+span {
+  color: yellow;
+}
+.s1 {
+  border-radius: 25px;
+}
+.s1 {
+  border-radius: 25px;
+}
+p {
+  padding-left: 25px;
+}
+body {
+  background-color: white;
+}
+.check {
+  color: black;
+}
+.my {
+  color:darkred;
+}
+.check {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: Aspose, sans-serif;
+  font-size: bold;
+}
+.component {
+  color: black;
+}
+a{text-decoration:none;
+ color:white;}
+.library {
+  color: #0437f2;
+}
+.level-1 {
+  background-color: #dae2fe;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+.level-2 {
+  background-color: lightgrey;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  margin-top: 25px;
+}
+.level-3 {
+  background-color: #dae2fe;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  margin-top: 25px;
+}
+.simple {
+}
+button {
+  background-color:darkred;
+  color: white;
+  width: 350px;
+  padding: 8px 0;
+}
+.live {
+  margin-bottom: 3px;
+}
+button:hover {
+  background-color: darkyellow;
+}
+footer {
+  background-color: #00072d;
+  margin-top: 50px;
+}
+h3 {
+  color: white;
+}
+h6 {
+  color: lightgrey;
+}
+
+footer {
+  text-align: center;
+  background-color: darkred;
+  padding: 25px;
+  font-size: 20px;
+}
