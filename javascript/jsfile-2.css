@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto, sans-serif;
+  background-color: whitesmoke;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.main {
+  box-shadow: 5px 5px 15px;
+}
+.input {
+  padding: 15px;
+  background-color: white;
+}
+#in-1 {
+  border: 2px solid rgb(248, 227, 6);
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+.output {
+  padding: 15px;
+  background-color: bisque;
+}
+.submit {
+  background-color: rgb(12, 224, 12);
+  color: white;
+  font-weight: bold;
+  border-style: none;
+
+  height: 30px;
+
+  width: 50px;
+}
+.delete-1 {
+  background-color: rgb(255, 225, 0);
+}
+h3 {
+  color: darkred;
+}
+h2 {
+  text-align: center;
+}
+.bg {
+  background-color: darkgreen;
+  margin-top: 15px;
+  padding: 5px;
+}
