@@ -7,6 +7,7 @@ function adddetails() {
 
   if (inputvalue.innerText === "") {
     alert("Fill The Tasks!");
+    clear.innerText = "";
   } else {
     let color = document.querySelector(".outputvalue").appendChild(inputvalue);
     color.style.color = "white";
@@ -16,6 +17,28 @@ function adddetails() {
     color.style.padding = "10px";
     color.style.marginTop = "15px";
   }
+  let clear = document.createElement("button");
+  clear.innerText = "clear";
+  let css = inputvalue.appendChild(clear);
+  css.style.backgroundColor = " rgb(12, 224, 12)";
+  css.style.marginLeft = "250px";
+  css.style.borderRadius = "5px";
+  css.style.color = "white";
+  css.style.fontWeight = "bold";
+  css.style.height = "30px";
+  css.style.borderStyle = "none";
+
+  css.style.padding = "5px";
+
+  function del() {
+    document.querySelector(".outputvalue").innerHTML = "";
+  }
+  clear.addEventListener("click", del);
+
+  function strike() {
+    inputvalue.style.textDecoration = "line-through";
+  }
+  inputvalue.addEventListener("click", strike);
 }
 
 let a = document.querySelector(".submit");
