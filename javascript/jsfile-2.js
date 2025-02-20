@@ -21,13 +21,12 @@ function adddetails() {
   clear.innerText = "clear";
   let css = inputvalue.appendChild(clear);
   css.style.backgroundColor = " rgb(12, 224, 12)";
-  css.style.marginLeft = "250px";
-  css.style.borderRadius = "5px";
+  css.style.float = "right";
+
   css.style.color = "white";
   css.style.fontWeight = "bold";
-  css.style.height = "30px";
+  css.style.height = "25px";
   css.style.borderStyle = "none";
-
   css.style.padding = "5px";
 
   function del() {
