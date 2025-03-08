@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+h3 {
+  text-align: center;
+  font-family: roboto, sans-serif;
+}
+.text {
+  text-align: center;
+}
+.main {
+  padding: 15px;
+  width: 300px;
+  background-color: white;
+  box-shadow: 5px 5px 25px rgb(195, 192, 192);
+  border-radius: 15px;
+}
+.button {
+  margin-left: 25px;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  height: 30px;
+  width: 250px;
+  border-style: none;
+  box-shadow: 0px 0px 15px rgb(245, 3, 116);
+  background-color: rgb(245, 3, 116);
+}

@@ -1,11 +1,11 @@
 let input = document.querySelector("#in-1");
 function adddetails() {
   let inputvalue = document.createElement("p");
-  inputvalue.innerText = input.value;
+
   input.value = "";
   document.querySelector(".outputvalue").appendChild(inputvalue);
 
-  if (inputvalue.innerText === "") {
+  if (input.value === "") {
     alert("Fill The Tasks!");
     clear.innerText = "";
   } else {
