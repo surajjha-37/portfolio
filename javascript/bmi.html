@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bmi.css" />
+    <title>Body Mass Index(BMI)</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h3>BODY MASS INDEX</h3>
+        <input
+          type="number"
+          id="in-1"
+          placeholder="Enter your weight in 'kg'"
+        />
+        <input type="number" id="in-2" placeholder="Enter your height 'm'" />
+
+        <button class="btn">Check BMI</button>
+        <div class="flex">
+          <button class="dark">Dark Mode</button>
+          <div class="align">
+            <p class="output"></p>
+          </div>
+          <button class="light">light Mode</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1/dist/confetti.browser.min.js"></script>
+    <script src="bmi.js"></script>
+  </body>
+</html>
