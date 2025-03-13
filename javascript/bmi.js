@@ -62,3 +62,4 @@ function lightt() {
   b.style.color = "black";
 }
 light.addEventListener("click", lightt);
+setTimeout(bmi, 5000);
