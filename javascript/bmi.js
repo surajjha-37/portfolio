@@ -29,8 +29,7 @@ function bmi() {
 btn.addEventListener("click", bmi);
 function darkk() {
   main.style.backgroundColor = "black";
-  btn.style.backgroundColor = "White";
-  btn.style.color = "black";
+
   dark.style.backgroundColor = "White";
   dark.style.color = "black";
   light.style.backgroundColor = "White";
@@ -42,6 +41,7 @@ function darkk() {
   b.style.backgroundColor = "rgb(38, 37, 37)";
   a.style.color = "white";
   b.style.color = "white";
+  btn.style.cssText = "background-color:white; color:black;";
 }
 dark.addEventListener("click", darkk);
 
