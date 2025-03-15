@@ -17,6 +17,7 @@ body {
   background-color: rgb(61, 2, 96);
   padding-bottom: 35px;
   width: 400px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
