@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="container">
@@ -12,13 +13,28 @@
         <input type="number" id="in-2" placeholder="Enter the Second value" />
         <div class="outputdiv">
           <p class="output"></p>
-          <button class="add">add</button>
-          <button class="sub">sub</button>
-          <button class="mul">mul</button>
-          <button class="div">div</button>
+        </div>
+        <div class="flex">
+          <button class="add">+</button>
+          <button class="sub">-</button>
+          <button class="mul">*</button>
+          <button class="div">/</button>
+        </div>
+        <div class="convert">
+          <h3>Convertor</h3>
+          <input type="number" id="in-3" placeholder="Enter the value" />
+          <div class="outputdiv2">
+            <p class="output2"></p>
+          </div>
+          <div class="flex2">
+            <button class="btn5">In cm</button>
+            <button class="btn6">In m</button>
+          </div>
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1/dist/confetti.browser.min.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>

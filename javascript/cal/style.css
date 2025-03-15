@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto, sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background-color: rgb(61, 2, 96);
+  padding-bottom: 35px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 15px;
+}
+h3 {
+  font-size: 30px;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
+#in-1,
+#in-2,
+#in-3 {
+  height: 30px;
+  width: 250px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.add,
+.sub,
+.mul,
+.div {
+  color: white;
+  height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 50px;
+  background-color: rgb(237, 8, 237);
+  border-style: none;
+}
+
+.btn5,
+.btn6 {
+  color: white;
+  height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 80px;
+  background-color: rgb(237, 8, 237);
+  border-style: none;
+}
+.flex {
+  display: flex;
+
+  gap: 15px;
+}
+.cssdiv {
+  width: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  border: 2px solid rgb(237, 8, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css {
+  color: purple;
+  text-align: center;
+  font-weight: bold;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.convert {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
