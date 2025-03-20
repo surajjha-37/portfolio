@@ -3,8 +3,10 @@ let in1 = document.querySelector(".in");
 let btn = document.querySelector(".btn");
 let sel = document.querySelector("#select");
 function select() {
+  confetti();
   let in1value = Number(in1.value);
   let selectvalue = sel.value;
+
   if (selectvalue === "USD") {
     let final1 = in1value * 86.33;
     out.innerHTML = final1 + "  INR";

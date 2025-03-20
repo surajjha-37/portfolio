@@ -26,6 +26,14 @@
 #select {
   width: 250px;
   height: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid yellow;
+  color: white;
+}
+
+.in::placeholder {
+  color: whitesmoke;
 }
 option {
   color: white;
@@ -35,31 +43,54 @@ option {
 .in {
   height: 30px;
   width: 250px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid yellow;
 }
 .input {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-top: 15px;
+  gap: 5px;
 }
 .btn {
-  height: 30px;
+  height: 25px;
   width: 250px;
   font-weight: bold;
   font-size: 15px;
+  border-radius: 15px;
+  border-style: none;
   background-color: rgb(255, 230, 0);
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 0, 0.777);
 }
 .btndiv {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 15px;
   gap: 15px;
 }
 .css {
   height: 30px;
   width: 250px;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid rgb(255, 225, 0);
   text-align: center;
   color: black;
+  border-radius: 5px;
 }
 .h3 {
   color: white;
+}
+span {
+  color: rgb(255, 238, 0);
+}
+.margin {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
