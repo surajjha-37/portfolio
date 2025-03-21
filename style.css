@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .section-1 {
   background-image: linear-gradient(
@@ -23,6 +26,7 @@
   width: 80vw;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.911);
 }
+
 .srg {
   height: 60px;
   width: 150px;
@@ -114,18 +118,15 @@ ul a:hover {
 
   .namee {
     font-size: 30px;
-    
   }
   .text {
     margin-top: 30px;
     padding-top: 5px;
     padding-bottom: 10px;
-    
-color:white;
+
+    color: white;
     padding-left: 35px;
     padding-right: 15px;
-
-    
   }
   .main {
     width: 100vw;
@@ -157,9 +158,9 @@ color:white;
     margin-right: 70px;
   }
   .section-in {
-    background-color:none;
+    background-color: none;
     box-shadow: none;
-    
+
     border-radius: 0%;
     width: 100vw;
     height: 80%;
@@ -169,8 +170,8 @@ color:white;
   }
   .div-2 {
     margin-left: -45px;
-    height:150px;
-    width:150px;
+    height: 150px;
+    width: 150px;
   }
   .about {
     height: 200px;
@@ -179,13 +180,32 @@ color:white;
   .div-2 {
     max-width: 100%;
   }
-  
-  
+  .divs {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 10px;
+  }
+  .div-1 {
+    min-width: 250px;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
 }
-}
+
 .section-3 {
   margin-top: 50px;
-  background-color: antiquewhite;
+  background-image: linear-gradient(
+    rgb(4, 36, 84),
+    rgb(4, 4, 104),
+    rgb(17, 4, 95),
+    rgb(16, 19, 112)
+  );
   padding-bottom: 100px;
   margin-bottom: -90px;
 }
@@ -226,7 +246,11 @@ color:white;
   height: 300px;
   width: 300px;
   border-radius: 25px;
-  background-color: rgb(3, 3, 84);
+  border: 2px solid white;
+  background-color: transparent;
+}
+.div-1:hover {
+  transform: scale(1.05);
 }
 .divs-2 {
   display: flex;
@@ -234,6 +258,9 @@ color:white;
   margin-left: 110px;
   gap: 25px;
   margin-top: 50px;
+}
+.div-2:hover {
+  transform: scale(1.05);
 }
 .firstimg-1 {
   display: flex;
@@ -255,9 +282,16 @@ color:white;
   border-radius: 25px;
   background-color: rgb(3, 3, 84);
 }
+.Explore-2 {
+  color: rgb(3, 3, 94);
+  font-weight: bold;
 
+  font-size: 45px;
+  text-align: center;
+  padding-top: 50px;
+}
 .Explore {
-  color: rgb(3, 3, 84);
+  color: white;
   font-weight: bold;
   text-shadow: 1px 1px 1px blue;
   font-size: 35px;
@@ -293,8 +327,9 @@ color:white;
   border-radius: 25px;
 }
 .moreview:hover {
-  background-color: white;
+  background-color: rgb(0, 247, 255);
   color: darkblue;
+  border: 2px solid darkblue;
 }
 .icon {
   display: flex;
@@ -311,6 +346,7 @@ color:white;
 .about {
   height: 620px;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.274);
+  border: 5px solid darkblue;
   border-radius: 25px;
   margin-top: 50px;
   margin-right: 50px;
@@ -323,7 +359,7 @@ hr {
   background-color: darkblue;
 }
 .footer {
-  background-color: rgb(1, 1, 120);
+  background-color: rgb(2, 2, 45);
   padding: 55px;
   margin-top: 150px;
   text-align: center;
