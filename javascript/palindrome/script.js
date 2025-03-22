@@ -3,6 +3,7 @@ let btn = document.querySelector(".btn");
 let output = document.querySelector(".output");
 
 function palin() {
+  confetti();
   let invalue = input.value;
   let lower = invalue.toLowerCase();
   let reverse = lower.split("").reverse().join("");
