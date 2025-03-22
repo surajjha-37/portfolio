@@ -1,22 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: roboto, sans-serif;
 }
 html {
   scroll-behavior: smooth;
 }
 
 .section-1 {
-  background-image: linear-gradient(
-    to right,
-    rgb(3, 3, 83),
-    rgb(0, 208, 255),
-    purple
-  );
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  animation: 10s infinite ease change;
+}
+@keyframes change {
+  0% {
+    background-color: rgb(3, 3, 83);
+  }
+  25% {
+    background-color: rgb(77, 4, 76);
+  }
+  50% {
+    background-color: rgb(6, 126, 246);
+  }
+  100% {
+    background-color: rgb(97, 11, 178);
+  }
 }
 .section-in {
   border-radius: 25px;
@@ -26,19 +37,32 @@ html {
   width: 80vw;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.911);
 }
-
+.iconimg {
+  height: 50px;
+}
+.icimgflex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 3%;
+}
+.icimg-1 {
+  height: 30px;
+  color: white;
+}
+.icimg-2 {
+  height: 37px;
+}
 .srg {
-  height: 60px;
-  width: 150px;
+  height: 50px;
+  width: 120px;
   float: left;
 
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 37px;
   display: flex;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 header {
   display: grid;
 
@@ -78,15 +102,18 @@ ul {
   font-weight: bold;
 }
 .namee {
-  color: rgb(0, 179, 255);
+  color: rgb(0, 115, 255);
 
   font-size: 55px;
 }
 .developer {
-  color: blue;
+  color: rgb(99, 9, 115);
 }
 .web {
   background-color: yellow;
+  color: darkred;
+}
+.web-2 {
   color: darkred;
 }
 ul a:hover {
@@ -200,14 +227,18 @@ ul a:hover {
 
 .section-3 {
   margin-top: 50px;
-  background-image: linear-gradient(
-    rgb(4, 36, 84),
-    rgb(4, 4, 104),
-    rgb(17, 4, 95),
-    rgb(16, 19, 112)
-  );
+
   padding-bottom: 100px;
   margin-bottom: -90px;
+  background-image: linear-gradient(
+    to right,
+    rgb(4, 4, 86),
+    rgb(7, 43, 150),
+    rgb(3, 3, 84),
+    rgb(7, 28, 159),
+    rgb(7, 7, 139),
+    rgb(6, 44, 158)
+  );
 }
 
 .section-2 {
