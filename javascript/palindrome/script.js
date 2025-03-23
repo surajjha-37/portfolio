@@ -6,9 +6,9 @@ function palin() {
   confetti();
   let invalue = input.value;
   let lower = invalue.toLowerCase();
-  let reverse = lower.split("").reverse().join("");
+  let reversed = lower.split("").reverse().join("");
   output.classList.add("css");
-  if (invalue === reverse) {
+  if (invalue === reversed) {
     output.innerHTML = "Yes, Your Name is Palindrome";
   } else {
     output.innerHTML = "No, Your Name is not Palindrome";
