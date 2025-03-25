@@ -7,6 +7,18 @@ body {
   margin: 0;
   padding: 0;
 }
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.back {
+  height: 38px;
+  width: 50px;
+  font-size: 30px;
+  background-color: whitesmoke;
+  border: 3px solid #00072d;
+}
 
 .s1 {
   background-color: #030f50;
@@ -72,6 +84,8 @@ a {
   margin: auto;
   padding-bottom: 30px;
   padding-top: 15px;
+}
+.level-1:hover {
 }
 .level-2 {
   background-color: rgb(208, 234, 243);

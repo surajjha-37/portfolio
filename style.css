@@ -7,7 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+summary {
+  cursor: pointer;
+}
 .section-1 {
   display: flex;
   justify-content: center;
@@ -17,16 +19,16 @@ html {
 }
 @keyframes change {
   0% {
-    background-color: rgb(3, 3, 83);
+    background-image: linear-gradient(rgb(3, 3, 83), rgb(141, 9, 241));
   }
   25% {
-    background-color: rgb(77, 4, 76);
+    background-image: linear-gradient(rgb(77, 4, 76), rgb(3, 3, 83));
   }
   50% {
-    background-color: rgb(6, 126, 246);
+    background-image: linear-gradient(rgb(225, 8, 149), rgb(3, 3, 83));
   }
   100% {
-    background-color: rgb(97, 11, 178);
+    background-image: linear-gradient(rgb(119, 87, 231), rgb(3, 3, 83));
   }
 }
 .section-in {
@@ -115,6 +117,7 @@ ul {
 }
 .web-2 {
   color: darkred;
+  font-weight: bold;
 }
 ul a:hover {
   color: blue;
