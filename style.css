@@ -298,7 +298,8 @@ ul a:hover {
   height: 300px;
   width: 300px;
   border-radius: 25px;
-  border: 2px solid white;
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
   background-color: transparent;
 }
 .div-1:hover {
@@ -332,6 +333,7 @@ ul a:hover {
   height: 300px;
   width: 300px;
   border-radius: 25px;
+
   background-color: rgb(3, 3, 84);
 }
 .Explore-2 {
@@ -367,7 +369,8 @@ ul a:hover {
   margin-top: 15px;
 }
 .moreview {
-  border: 2px solid white;
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
   color: white;
   padding-left: 15px;
   padding-right: 15px;
@@ -386,6 +389,7 @@ ul a:hover {
 .icon {
   display: flex;
   gap: 25px;
+
   justify-content: end;
   margin-right: 30px;
   margin-top: 15px;
@@ -397,8 +401,9 @@ ul a:hover {
 
 .about {
   height: 620px;
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.274);
-  border: 5px solid darkblue;
+  box-shadow: 0px 0px 15px rgb(8, 0, 255), 0px 0px 15px rgb(8, 0, 255) inset;
+  border: 3px solid cyan;
+
   border-radius: 25px;
   margin-top: 50px;
   margin-right: 50px;
