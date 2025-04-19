@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
 }
 body {
   margin: 0;
@@ -17,6 +17,7 @@ body {
   width: 50px;
   font-size: 30px;
   background-color: whitesmoke;
+
   border: 3px solid #00072d;
 }
 
@@ -52,13 +53,36 @@ p {
   padding-left: 25px;
 }
 body {
-  background-color: white;
+  background-color: #202216;
+  background-image: url("../projectbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@keyframes change {
+  0% {
+    background-image: linear-gradient(rgb(3, 3, 83), rgb(31, 24, 36));
+  }
+  25% {
+    background-image: linear-gradient(rgb(77, 4, 76), rgb(3, 3, 83));
+  }
+  50% {
+    background-image: linear-gradient(rgb(24, 23, 26), rgb(3, 3, 83));
+  }
+  75% {
+    background-image: linear-gradient(rgb(58, 6, 117), rgb(51, 6, 54));
+  }
+  100% {
+    background-image: linear-gradient(rgb(21, 6, 77), rgb(3, 3, 83));
+  }
 }
 .check {
-  color: black;
+  color: rgb(247, 241, 241);
 }
 .my {
-  color: darkblue;
+  color: rgb(0, 119, 255);
+  -webkit-text-stroke: 1px #0ff;
+  text-shadow: 0 0 5px #0fff, 0 0 15px #0fff, 0 0 0px #0fff;
 }
 .check {
   text-align: center;
@@ -79,49 +103,64 @@ a {
 }
 .level-1 {
   background-color: #dae2fe;
+  border-radius: 15px 0px 15px 0px;
   text-align: center;
   max-width: 600px;
   margin: auto;
   padding-bottom: 30px;
   padding-top: 15px;
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
 }
 .level-1:hover {
 }
 .level-2 {
   background-color: rgb(208, 234, 243);
+  border-radius: 15px 0px 15px 0px;
   text-align: center;
   max-width: 600px;
   margin: auto;
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
 }
 .level-3 {
   background-color: #dae2fe;
+  border-radius: 15px 0px 15px 0px;
   text-align: center;
   max-width: 600px;
   margin: auto;
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
 }
 .level-4 {
   background-color: #dae2fe;
+  border-radius: 15px 0px 15px 0px;
   text-align: center;
   max-width: 600px;
   margin: auto;
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
 }
 .level-5 {
   background-color: #d4f1f0;
+  border-radius: 15px 0px 15px 0px;
   text-align: center;
   max-width: 600px;
   margin: auto;
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
 }
 .simple {
 }
@@ -147,10 +186,17 @@ h3 {
 h6 {
   color: rgb(7, 223, 252);
 }
-
+.srg {
+  color: cyan;
+}
+.footer-1 {
+  color: white;
+  font-weight: bold;
+}
 footer {
   text-align: center;
-  background-color: darkblue;
+  background-color: black;
+  border-top: 2px solid white;
   padding: 25px;
   font-size: 20px;
 }

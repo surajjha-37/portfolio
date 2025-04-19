@@ -88,18 +88,12 @@
 //   });
 
 // Fetch API
-
-fetch("https://jsonplaceholder.typicode.com/users/1") // API URL
-  .then((response) => response.json()) // Response ko JSON format mein convert karo
+fetch(
+  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=c54dacb95631330e657284be2723541d&page=1"
+)
+  .then((response) => response.json())
   .then((data) => {
-    // Yaha data ko print karenge HTML mein
-    document.getElementById("user").innerHTML = `
-    <p><strong>Name:</strong> ${data.name}</p>
-    <p><strong>Email:</strong> ${data.email}</p>
-    <p><strong>City:</strong> ${data.address.city}</p>
-  `;
+    let div = document.querySelector(".user");
+    div.innerHTML = "suraj";
   })
-  .catch((error) => {
-    // Agar error aata hai toh
-    console.log("Error:", error);
-  });
+  .catch((error) => console.log(error));

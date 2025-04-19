@@ -10,6 +10,16 @@
     <div id="user"></div>
     <!-- Yeh div mein data dikhayenge -->
 
-    <script src="outputbased.js"></script>
+    <script>
+      fetch(
+        "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=c54dacb95631330e657284be2723541d&page=1"
+      )
+        .then((response) => response.json())
+
+        .then((data) => {
+          div.innerHTML = user;
+        })
+        .catch((error) => console.log(error));
+    </script>
   </body>
 </html>
