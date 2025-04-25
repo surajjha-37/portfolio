@@ -28,7 +28,7 @@ summary {
     background-image: linear-gradient(rgb(225, 8, 149), rgb(3, 3, 83));
   }
   75% {
-    background-image: linear-gradient(rgb(170, 102, 247), rgb(209, 14, 223));
+    background-image: linear-gradient(rgb(26, 2, 53), rgb(209, 14, 223));
   }
   100% {
     background-image: linear-gradient(rgb(119, 87, 231), rgb(3, 3, 83));
@@ -230,10 +230,9 @@ ul a:hover {
   }
   .divs {
     display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    flex-direction: column;
+
     gap: 10px;
-    padding: 10px;
   }
   .div-1 {
     min-width: 250px;
@@ -248,18 +247,10 @@ ul a:hover {
 
 .section-3 {
   margin-top: 50px;
-
+  padding-top: 25px;
   padding-bottom: 100px;
   margin-bottom: -90px;
-  background-image: linear-gradient(
-    to right,
-    rgb(4, 4, 86),
-    rgb(7, 43, 150),
-    rgb(3, 3, 84),
-    rgb(7, 28, 159),
-    rgb(7, 7, 139),
-    rgb(6, 44, 158)
-  );
+  background-color: #051c36;
 }
 
 .section-2 {
@@ -282,39 +273,34 @@ ul a:hover {
   margin-top: 50px;
 }
 .profile {
-  color: aqua;
+  color: #d6cfe1;
+  font-size: 20px;
   margin-top: 30px;
 }
-.p-one {
-  background-color: white;
-}
-.p-two {
-  background-color: antiquewhite;
-}
+
 .div-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
   height: 300px;
+  padding-bottom: 15px;
   width: 300px;
   border-radius: 25px;
   border: 3px solid cyan;
   box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
   background-color: transparent;
 }
-.div-1:hover {
-  transform: scale(1.05);
-}
+
 .divs-2 {
   display: flex;
   flex-direction: column;
   margin-left: 110px;
   gap: 25px;
+
   margin-top: 50px;
 }
-.div-2:hover {
-  transform: scale(1.05);
-}
+
 .firstimg-1 {
   display: flex;
   gap: 25px;
@@ -331,10 +317,12 @@ ul a:hover {
   justify-content: center;
   align-items: center;
   height: 300px;
+
   width: 300px;
   border-radius: 25px;
-
-  background-color: rgb(3, 3, 84);
+  border: 15px solid #08d7aa;
+  gap: 25px;
+  background-color: #051c36;
 }
 .Explore-2 {
   color: rgb(3, 3, 94);
@@ -347,36 +335,43 @@ ul a:hover {
 .Explore {
   color: white;
   font-weight: bold;
+
   text-shadow: 1px 1px 1px blue;
   font-size: 35px;
   text-align: center;
-  padding-top: 50px;
 }
 .div-1:hover {
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.619);
 }
 .div-2:hover {
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.619);
 }
 
 .profilep {
   width: 200px;
-  border-radius: 15px;
 
+  font-size: 55px;
+
+  text-align: center;
   color: black;
-  padding: 10px;
   font-weight: bold;
-  margin-top: 15px;
+}
+.add {
+  display: flex;
+
+  justify-content: center;
+  color: black;
+  align-items: center;
+  background-color: #08d7aa;
+  height: 150px;
 }
 .moreview {
   border: 3px solid cyan;
   box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
-  color: white;
-  padding-left: 15px;
-  padding-right: 15px;
+  color: cyan;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-top: 35px;
+  margin-top: 15px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 25px;
@@ -396,14 +391,15 @@ ul a:hover {
   font-size: 25px;
 }
 .color {
-  color: yellow;
+  color: cyan;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .about {
   height: 620px;
-  box-shadow: 0px 0px 15px rgb(8, 0, 255), 0px 0px 15px rgb(8, 0, 255) inset;
-  border: 3px solid cyan;
-
+  border: 15px solid #08d7aa;
+  width: 450px;
   border-radius: 25px;
   margin-top: 50px;
   margin-right: 50px;
@@ -415,15 +411,24 @@ hr {
   height: 1px;
   background-color: darkblue;
 }
-.footer {
-  background-color: rgb(2, 2, 45);
-  padding: 55px;
-  margin-top: 150px;
-  text-align: center;
+.srg {
+  color: cyan;
 }
-.footersrg {
+.footer-1 {
   color: white;
+  font-weight: bold;
 }
 footer {
-  color: yellow;
+  text-align: center;
+  background-color: black;
+  border-top: 2px solid white;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.imgic-1 {
+  height: 100px;
+  filter: invert(1);
+  width: 100px;
+  color: white;
 }

@@ -109,10 +109,11 @@ a {
   margin: auto;
   padding-bottom: 30px;
   padding-top: 15px;
-  border: 3px solid cyan;
-  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+  border: 3px solid rgb(0, 183, 255);
+  box-shadow: 0px 0px 15px rgb(3, 177, 241), 0px 0px 15px rgb(0, 136, 255) inset;
 }
 .level-1:hover {
+  transform: scale(1.1);
 }
 .level-2 {
   background-color: rgb(208, 234, 243);
@@ -123,8 +124,8 @@ a {
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
-  border: 3px solid cyan;
-  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+  border: 3px solid rgb(0, 183, 255);
+  box-shadow: 0px 0px 15px rgb(3, 177, 241), 0px 0px 15px rgb(0, 136, 255) inset;
 }
 .level-3 {
   background-color: #dae2fe;
@@ -135,8 +136,8 @@ a {
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
-  border: 3px solid cyan;
-  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+  border: 3px solid rgb(0, 183, 255);
+  box-shadow: 0px 0px 15px rgb(3, 177, 241), 0px 0px 15px rgb(0, 136, 255) inset;
 }
 .level-4 {
   background-color: #dae2fe;
@@ -147,8 +148,8 @@ a {
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
-  border: 3px solid cyan;
-  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+  border: 3px solid rgb(0, 183, 255);
+  box-shadow: 0px 0px 15px rgb(3, 177, 241), 0px 0px 15px rgb(0, 136, 255) inset;
 }
 .level-5 {
   background-color: #d4f1f0;
@@ -159,8 +160,8 @@ a {
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: 25px;
-  border: 3px solid cyan;
-  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+  border: 3px solid rgb(0, 183, 255);
+  box-shadow: 0px 0px 15px rgb(3, 177, 241), 0px 0px 15px rgb(0, 136, 255) inset;
 }
 .simple {
 }
