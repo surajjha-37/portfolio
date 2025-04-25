@@ -163,7 +163,9 @@ ul a:hover {
     display: flex;
     flex-direction: column-reverse;
   }
-
+  .divs-2-img {
+    display: none;
+  }
   .namee {
     font-size: 30px;
   }
@@ -208,13 +210,17 @@ ul a:hover {
   .section-in {
     background-color: none;
     box-shadow: none;
-
+    padding-bottom: 45px;
     border-radius: 0%;
     width: 100vw;
     height: 80%;
   }
-  .icon {
-    margin-right: 70px;
+  summary {
+    color: black;
+  }
+  .iconimg,
+  .nameee {
+    display: none;
   }
   .div-2 {
     margin-left: -45px;
@@ -233,6 +239,12 @@ ul a:hover {
     flex-direction: column;
 
     gap: 10px;
+  }
+  .firstimg-1,
+  .firstimg-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
   .div-1 {
     min-width: 250px;
