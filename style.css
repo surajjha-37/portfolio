@@ -158,104 +158,6 @@ ul a:hover {
 
   border-radius: 185px;
 }
-@media (max-width: 600px) {
-  .content {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .divs-2-img {
-    display: none;
-  }
-  .namee {
-    font-size: 30px;
-  }
-  .text {
-    margin-top: 30px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-
-    color: white;
-    padding-left: 35px;
-    padding-right: 15px;
-  }
-  .main {
-    width: 100vw;
-  }
-  .mainimg {
-    margin-top: -25px;
-    height: 300px;
-    width: 300px;
-  }
-  .divs {
-    flex-direction: column;
-    gap: 25px;
-  }
-  .logo {
-    margin-bottom: 50px;
-  }
-  .srg {
-    height: 50px;
-    width: 70px;
-  }
-  .divsmaster-2 {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  li a {
-    display: none;
-  }
-  ul {
-    margin-right: 70px;
-  }
-  .section-in {
-    background-color: none;
-    box-shadow: none;
-    padding-bottom: 45px;
-    border-radius: 0%;
-    width: 100vw;
-    height: 80%;
-  }
-  summary {
-    color: black;
-  }
-  .iconimg,
-  .nameee {
-    display: none;
-  }
-  .div-2 {
-    margin-left: -45px;
-    height: 150px;
-    width: 150px;
-  }
-  .about {
-    height: 200px;
-    width: 350px;
-  }
-  .div-2 {
-    max-width: 100%;
-  }
-  .divs {
-    display: flex;
-    flex-direction: column;
-
-    gap: 10px;
-  }
-  .firstimg-1,
-  .firstimg-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  .div-1 {
-    min-width: 250px;
-    flex: 0 0 auto;
-    scroll-snap-align: center;
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-}
 
 .section-3 {
   margin-top: 50px;
@@ -276,7 +178,8 @@ ul a:hover {
 }
 .divsmaster-2 {
   display: flex;
-  justify-content: space-between;
+
+  justify-content: space-around;
   width: 100vw;
 }
 .divs {
@@ -307,7 +210,7 @@ ul a:hover {
 .divs-2 {
   display: flex;
   flex-direction: column;
-  margin-left: 110px;
+
   gap: 25px;
 
   margin-top: 50px;
@@ -423,18 +326,28 @@ hr {
   height: 1px;
   background-color: darkblue;
 }
+
+h3 {
+  color: white;
+}
+h6 {
+  color: rgb(7, 223, 252);
+}
 .srg {
   color: cyan;
 }
 .footer-1 {
   color: white;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 footer {
   text-align: center;
   background-color: black;
   border-top: 2px solid white;
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 150px;
   font-size: 20px;
 }
 
@@ -443,4 +356,113 @@ footer {
   filter: invert(1);
   width: 100px;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .divs-2-img {
+    display: none;
+  }
+  .namee {
+    font-size: 30px;
+  }
+  .text {
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+    color: white;
+    padding-left: 35px;
+    padding-right: 15px;
+  }
+  .main {
+    width: 100vw;
+  }
+  .mainimg {
+    margin-top: -25px;
+    height: 300px;
+    width: 300px;
+  }
+  .divs {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .logo {
+    margin-bottom: 50px;
+    display: none;
+  }
+  .srg {
+    height: 50px;
+    width: 70px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+    margin-bottom: 7%;
+  }
+  a {
+    font-size: 12px;
+  }
+  .section-in {
+    background-color: none;
+    box-shadow: none;
+    padding-bottom: 45px;
+    border-radius: 0%;
+    width: 100vw;
+    height: 80%;
+  }
+  summary {
+    color: black;
+  }
+  .iconimg,
+  .nameee {
+    display: none;
+  }
+  .div-2 {
+    height: 150px;
+    width: 150px;
+  }
+  .about {
+    height: 200px;
+    width: 350px;
+  }
+  .div-2 {
+    border-radius: 50%;
+  }
+  .h3-head {
+    display: none;
+  }
+  .Explore-2 {
+    font-size: 35px;
+  }
+  .moreview {
+    display: none;
+  }
+
+  .divs {
+    display: flex;
+    flex-direction: column;
+
+    gap: 35px;
+  }
+  .moreview-2 {
+    display: block;
+  }
+  .firstimg-1,
+  .firstimg-2 {
+    display: flex;
+
+    gap: 15px;
+  }
+  .div-1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+  }
 }

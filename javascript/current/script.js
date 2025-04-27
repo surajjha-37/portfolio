@@ -89,38 +89,53 @@
 
 // Fetch API
 
-let btn = document.querySelector(".find");
+// let btn = document.querySelector(".find");
 
-function api() {
-  let div = document.querySelector(".movie-container");
-  let div2 = document.querySelector(".movie-container2");
-  let div3 = document.querySelector(".movie-container3");
-  let div4 = document.querySelector(".movie-container4");
-  div.innerHTML = "loading...";
-  div2.innerHTML = "loading...";
-  div3.innerHTML = "loading...";
-  div4.innerHTML = "loading...";
-  fetch(
-    "https://api.open-meteo.com/v1/forecast?latitude=28.6654&longitude=77.4391&current=temperature_2m,precipitation,rain,wind_speed_10m,relative_humidity_2m,is_day&timezone=auto"
-  )
-    .then((response) => response.json())
-    .then((data) => {
-      setTimeout(() => {
-        let movies = data.current.time;
-        let movies2 = data.current.temperature_2m + "  °C";
-        let movies3 = data.current.wind_speed_10m;
-        let movies4 = data.current.relative_humidity_2m;
-        div.classList.add("style");
-        div2.classList.add("style");
-        div3.classList.add("style");
-        div4.classList.add("style");
-        div.innerHTML = movies;
-        div2.innerHTML = movies2;
-        div3.innerHTML = movies3;
-        div4.innerHTML = movies4;
-      }, 1000);
-    })
+// function api() {
+//   let div = document.querySelector(".movie-container");
+//   let div2 = document.querySelector(".movie-container2");
+//   let div3 = document.querySelector(".movie-container3");
+//   let div4 = document.querySelector(".movie-container4");
+//   div.innerHTML = "loading...";
+//   div2.innerHTML = "loading...";
+//   div3.innerHTML = "loading...";
+//   div4.innerHTML = "loading...";
+//   fetch(
+//     "https://api.open-meteo.com/v1/forecast?latitude=28.6654&longitude=77.4391&current=temperature_2m,precipitation,rain,wind_speed_10m,relative_humidity_2m,is_day&timezone=auto"
+//   )
+//     .then((response) => response.json())
+//     .then((data) => {
+//       setTimeout(() => {
+//         let movies = data.current.time;
+//         let movies2 = data.current.temperature_2m + "  °C";
+//         let movies3 = data.current.wind_speed_10m;
+//         let movies4 = data.current.relative_humidity_2m;
+//         div.classList.add("style");
+//         div2.classList.add("style");
+//         div3.classList.add("style");
+//         div4.classList.add("style");
+//         div.innerHTML = movies;
+//         div2.innerHTML = movies2;
+//         div3.innerHTML = movies3;
+//         div4.innerHTML = movies4;
+//       }, 1000);
+//     })
 
-    .catch((error) => console.log("Error:", error));
+//     .catch((error) => console.log("Error:", error));
+// }
+// btn.addEventListener("click", api);
+
+let abc = [1, 2, 3];
+function calculate(double, abc) {
+  console.log(double(abc));
 }
-btn.addEventListener("click", api);
+function double(abc) {
+  let a = [];
+
+  for (let i = 0; i < abc.length; i++) {
+    a.push(abc[i] * 2);
+  }
+  return a;
+}
+
+calculate(double, abc);
