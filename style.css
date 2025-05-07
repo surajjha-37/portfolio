@@ -126,8 +126,36 @@ ul {
 
   font-size: 55px;
 }
+.span-dev {
+  display: inline-block;
+  height: 50px;
+
+  overflow: hidden;
+}
+.span-flex {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
 .developer {
-  color: rgb(99, 9, 115);
+  display: block;
+  font-weight: bold;
+  font-family: druk;
+  color: darkblue;
+  font-size: 50px;
+  animation: rotateWords 6s infinite;
+}
+@keyframes rotateWords {
+  0% {
+    transform: translateY(0%);
+  }
+  25% {
+    transform: translateY(-200%);
+  }
+
+  100% {
+    transform: translateY(-0%);
+  }
 }
 .web {
   background-color: yellow;
@@ -142,7 +170,7 @@ ul a:hover {
   border-bottom: 3px solid blue;
 }
 .nameee {
-  color: rgb(6, 6, 103);
+  color: #9c079f;
 
   font-size: 15;
   max-width: 400px;
