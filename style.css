@@ -59,7 +59,6 @@ summary {
 .logo-3:hover,
 .logo-4:hover,
 .logo-5:hover {
-  border-bottom: 5px solid darkblue;
 }
 .logo-2 {
   height: 50px;
@@ -140,8 +139,10 @@ ul {
 .developer {
   display: block;
   font-weight: bold;
-  font-family: druk;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: darkblue;
+
   font-size: 50px;
   animation: rotateWords 6s infinite;
 }
@@ -178,6 +179,21 @@ ul a:hover {
 
   font-weight: bold;
 }
+.text {
+  animation: scrollanimate-2 2s ease;
+
+  animation-range: enter 0% cover 40%;
+}
+@keyframes scrollanimate-2 {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(15px);
+  }
+}
 .mainimg {
   height: 400px;
   box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.744);
@@ -185,8 +201,20 @@ ul a:hover {
   margin-top: 50px;
 
   border-radius: 185px;
-}
+  animation: scrollanimate 1s ease;
 
+  animation-range: enter 0% cover 40%;
+}
+@keyframes scrollanimate {
+  from {
+    opacity: 1;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
 .section-3 {
   margin-top: 50px;
   padding-top: 25px;
@@ -266,6 +294,19 @@ ul a:hover {
   border: 15px solid #08d7aa;
   gap: 25px;
   background-color: #051c36;
+  animation: scroll 1s ease-in-out;
+  animation-timeline: view();
+}
+@keyframes scroll {
+  from {
+    opacity: 0.8;
+    scale: 0.5;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
 .Explore-2 {
   color: rgb(3, 3, 94);
@@ -346,6 +387,9 @@ ul a:hover {
   border-radius: 25px;
   margin-top: 50px;
   margin-right: 50px;
+  animation: scroll 5s ease;
+  animation-timeline: view();
+  animation-range: enter 0% cover 40%;
 }
 hr {
   margin-top: 90px;
