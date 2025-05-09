@@ -139,8 +139,7 @@ ul {
 .developer {
   display: block;
   font-weight: bold;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Rowdies", sans-serif;
   color: darkblue;
 
   font-size: 50px;
@@ -408,20 +407,6 @@ h6 {
 .srg {
   color: cyan;
 }
-.footer-1 {
-  color: white;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-}
-footer {
-  text-align: center;
-  background-color: black;
-  border-top: 2px solid white;
-  padding-top: 25px;
-  padding-bottom: 150px;
-  font-size: 20px;
-}
 
 .imgic-1 {
   height: 100px;
@@ -429,7 +414,27 @@ footer {
   width: 100px;
   color: white;
 }
-
+.footer-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.927);
+  width: 100vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.in-2 {
+  color: cyan;
+}
 @media (max-width: 600px) {
   .content {
     display: flex;
