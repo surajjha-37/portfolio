@@ -455,6 +455,13 @@ footer {
     padding-left: 35px;
     padding-right: 15px;
   }
+  .span-dev {
+    width: 300px;
+  }
+
+  .developer {
+    font-size: 35px;
+  }
   .main {
     width: 100vw;
   }
