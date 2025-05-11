@@ -423,7 +423,7 @@ h6 {
 }
 footer {
   background-color: rgba(0, 0, 0, 0.927);
-  width: 100vw;
+  width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
@@ -435,6 +435,84 @@ footer {
 .in-2 {
   color: cyan;
 }
+.section-4 {
+  border: 3px solid cyan;
+  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+  padding: 35px;
+  background-color: #0d161f;
+}
+.reactpara {
+  display: flex;
+  justify-content: space-evenly;
+}
+.reactpara-in {
+  width: 500px;
+  color: whitesmoke;
+}
+.react {
+  margin-left: 25%;
+  color: white;
+}
+.react-2 {
+  color: cyan;
+}
+.section-4-in {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.reactimg-in {
+  animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.buttonview {
+  display: flex;
+  margin-top: 25px;
+  gap: 25px;
+  height: 40px;
+}
+.btn-1 {
+  display: flex;
+  width: 130px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #08d7aa;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  color: #04a07e;
+  border: 2px solid #04a07e;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background-color: rgb(44, 44, 65);
+  color: cyan;
+  border: 3px solid cyan;
+  transition: 0.5s;
+}
+.btn-2:hover {
+  border: 2px solid rgb(44, 44, 65);
+  color: rgb(44, 44, 65);
+  transition: 0.5s;
+  box-shadow: 0px 0px 2px 2px cyan, 0px 0px 2px 2px cyan inset;
+}
+
 @media (max-width: 600px) {
   .content {
     display: flex;
