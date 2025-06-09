@@ -436,35 +436,37 @@ footer {
   color: cyan;
 }
 .section-4 {
-  border: 3px solid cyan;
-  box-shadow: 0px 0px 15px cyan, 0px 0px 15px cyan inset;
+  border: 15px solid #08d7aa;
+
   padding: 35px;
-  background-color: #0d161f;
+  background-color: white;
 }
-.reactpara {
-  display: flex;
-  justify-content: space-evenly;
-}
-.reactpara-in {
-  width: 500px;
-  color: whitesmoke;
+.section-4-in {
 }
 .react {
-  margin-left: 25%;
+  text-align: center;
+  font-size: 35px;
   color: white;
 }
 .react-2 {
-  color: cyan;
+  color: #08d7aa;
 }
-.section-4-in {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
+.htmllogo-1 {
+  height: 100px;
+  width: 100px;
 }
-.reactimg-in {
-  animation: rotate 5s infinite;
+.htmllogo-2 {
+  height: 100px;
+  width: 70px;
 }
-
+.htmllogo-3 {
+  height: 100px;
+  width: 80px;
+}
+.htmllogo-4 {
+  height: 85px;
+  width: 80px;
+}
 @keyframes rotate {
   from {
     transform: rotate(0deg);
