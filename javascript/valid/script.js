@@ -53,7 +53,7 @@ btn1.addEventListener("click", async () => {
   const phone = input2.value;
   const email = input5.value;
 
-  if (name === "" || isNaN(password) || phone === "" || email === "") {
+  if (name === "" || password === "" || phone === "" || email === "") {
     alert("Please enter valid name and age");
     return;
   }
