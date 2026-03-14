@@ -682,24 +682,24 @@ box-shadow:0px 5px 15px 5px rgba(0, 0, 0, 0.37);
   }
   .namee{
     color:white;
-    font-size:36px;
+    font-size:38px;
   }
   .developer{
     color:rgb(245, 4, 208);
-    font-size:40px;
+    font-size:42px;
   }
   .nameee{
     display:block;
     color:cyan;
-    font-size:18px;
+    font-size:15px;
   }
   .btn-1{
-    width:160px;
+    width:140px;
     height:50px;
     
   }
   .btn-2{
-     width:160px;
+     width:140px;
     height:50px;
     border:3px solid #04a07e;
   }
@@ -711,10 +711,7 @@ box-shadow:0px 5px 15px 5px rgba(0, 0, 0, 0.37);
   .Explore-2{
     font-size:40px;
   }
-}
-
-
-.footer{
+  .footer{
   background:#111;
   color:white;
   padding:40px 0 20px;
@@ -791,18 +788,6 @@ box-shadow:0px 5px 15px 5px rgba(0, 0, 0, 0.37);
   color:#aaa;
 }
 
-/* Responsive */
-
-@media (max-width:768px){
-
-  .footer-container{
-    flex-direction:column;
-    text-align:center;
-  }
-
-  .social-icons a{
-    display:inline-block;
-    margin:5px 10px;
-  }
-
 }
+
+
