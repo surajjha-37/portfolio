@@ -556,11 +556,11 @@ animation:none;
   }
   .mainimg {
     margin-top: -25px;
-   height:250px;
+   height:230px;
    
-   width:215px;
+   width:200px;
     border-radius:60%;
-    border:10px solid white;
+    border:20px solid white;
   }
 
   .logo {
